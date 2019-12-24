@@ -16,6 +16,21 @@ font-family: 'Pacifico', cursive; */
 h2,h3,{
     font-family: font-family: 'Oxygen', sans-serif;
 }
+
+resources{
+    font-family:'Pacifico', cursive;
+    color:blue
+}
+
+
+
+
+
+
+
+
+
+
 a:visited{
     color:royalblue;
      }
@@ -28,6 +43,3 @@ a{
     color:navajowhite
 }
 
-.div{
-    color:blue
-}
