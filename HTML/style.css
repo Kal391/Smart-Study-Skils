@@ -1,0 +1,21 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
+</style>
+
+.h1{font-family: 'Lobster', cursive;
+}
+
+
+}
+a{
+  color:GOLDENROD;
+}
+a:hover{
+  color:ROSYBROWN;
+}
+a:visted{
+  color:CRIMSON;
+}
+.body{
+    background-color:red;}
+

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Mansalva|Pacifico|Shadows+Into+Light|Vibes&display=swap');
+
+.site-header{
+  font-family: 'Mansalva', cursive;
+  color:green;
+}
+
+
+}
+a{
+  color:GOLDENROD;
+}
+a:hover{
+  color:ROSYBROWN;
+}
+a:visted{
+  color:CRIMSON;
+}
+body{
+    background-color:  #fcfce1;}
+
