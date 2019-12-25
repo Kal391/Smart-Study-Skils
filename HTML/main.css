@@ -4,13 +4,17 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Pacifico', cursive; */
 
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
-</style>
- {
-    font-family: 'Lobster', cursive;
+</style> h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: lighter
 }
 
-h1 {
-    color: yellowgreen
+h2 {
+    color: tomato
+}
+
+h4 {
+    color: black
 }
 
 .skills {
@@ -39,7 +43,24 @@ a {
     color: mediumslateblue
 }
 
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h1 {
+    color: sandybrown
+}
+
+.attractor {
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder
+}
+
+.attractor {
+    color: midnightblue
+}
+
 body {
     background-color: navajowhite
-        /* midnightblue */
+    /* midnightblue */
 }
