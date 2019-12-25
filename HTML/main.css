@@ -6,24 +6,20 @@ font-family: 'Pacifico', cursive; */
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
 </style>
 
-.tagline{
-    font-family:'Lobster', cursive;
-    color: yellow;
-}
-
-.skills{
-    font-family:'Muli', sans-serif;
-    font-weight: 100
-   }
-
-.skills{
-     color:blueviolet
-}
-
-h2,
 h3 {
-    font-family: font-family: 'Oxygen', sans-serif;
-    color: orchid
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    color: yellow
+}
+
+.skills {
+    font-family: 'Muli', sans-serif;
+    font-weight: 70
+}
+
+.skills {
+    color: blueviolet
 }
 
 .resources {
