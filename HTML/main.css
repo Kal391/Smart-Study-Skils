@@ -7,8 +7,17 @@ font-family: 'Pacifico', cursive; */
 </style>
 
 .tagline{
-    font-family: font-family: 'Lobster', cursive;
+    font-family:'Lobster', cursive;
     color: yellow;
+}
+
+.skills{
+    font-family:'Muli', sans-serif;
+    font-weight: 100
+   }
+
+.skills{
+     color:blueviolet
 }
 
 h2,
