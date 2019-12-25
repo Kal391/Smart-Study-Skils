@@ -4,42 +4,32 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Pacifico', cursive; */
 
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
-</style>
-
-
-
-index.tagline{
+</style> .tagline {
     font-family: 'Lobster', cursive;
-    color:  mediumvioletred;
+    color: mediumvioletred;
 }
 
-h2,h3{
+h2,
+h3 {
     font-family: font-family: 'Oxygen', sans-serif;
 }
 
-resources{
-    font-family:'Pacifico', cursive;
-    color:blue
+.resources {
+    font-family: 'Pacifico', cursive;
+    color: darkgoldenrod
 }
 
-
-
-
-
-
-
-
-
-
-a:visited{
-    color:royalblue;
-     }
-
-a:hover{
-    color:dimgrey;
+a:visited {
+    color: royalblue;
 }
 
-a{
-    color:navajowhite
+a:hover {
+    color: yellow;
 }
 
+a {
+    color: mediumslateblue
+}
+body{
+    background-color: navajowhite
+}
