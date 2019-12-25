@@ -5,12 +5,12 @@ font-family: 'Pacifico', cursive; */
 
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
 </style>
-
-h3 {
-    font-family: 'Oxygen', sans-serif;
+ {
+    font-family: 'Lobster', cursive;
 }
-h1{
-    color: yellow
+
+h1 {
+    color: yellowgreen
 }
 
 .skills {
@@ -41,4 +41,5 @@ a {
 
 body {
     background-color: navajowhite
+        /* midnightblue */
 }
