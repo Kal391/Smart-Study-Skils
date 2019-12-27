@@ -4,9 +4,7 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Pacifico', cursive; */
 
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
-</style>
-
-h2 {
+</style> h2 {
     font-family: 'Oxygen', sans-serif;
     font-weight: lighter
 }
@@ -21,7 +19,7 @@ h4 {
 
 .skills {
     font-family: 'Muli', sans-serif;
-    font-weight:normal
+    font-weight: normal
 }
 
 .skills {
@@ -47,7 +45,7 @@ a {
 
 h1 {
     font-family: 'Pacifico', cursive;
-color: sandybrown
+    color: sandybrown
 }
 
 .attractor {
@@ -59,22 +57,25 @@ color: sandybrown
     color: midnightblue
 }
 
-.tagline{
-     font-family: 'Muli', sans-serif;
-    font-weight: bolder
-   }
-.tagline{
-     color:cornflowerblue
-}
-.intro{
+.tagline {
     font-family: 'Muli', sans-serif;
     font-weight: bolder
 }
-.intro{
-    color:midnightblue
+
+.tagline {
+    color: cornflowerblue
 }
 
-footer{
+.intro {
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder
+}
+
+.intro {
+    color: midnightblue
+}
+
+footer {
     font-family: 'Lobster', cursive;
 }
 
@@ -83,66 +84,189 @@ body {
     /* midnightblue */
 }
 
- body{
+body,
+.resources {
     text-align: center
 }
+
 
 /* font-family: 'Lobster', cursive;
 font-family: 'Muli', sans-serif;
 font-family: 'Oxygen', sans-serif;
 font-family: 'Pacifico', cursive; */
 
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+.who,
+.credits,
+.path {
     font-family: 'Muli', sans-serif;
-    color:midnightblue
+    color: midnightblue
 }
 
-/* .site-nav{
-    display:
-} */
-
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+h4 {
     display: flex
 }
 
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+{
     border: thick double midnightblue;
+    display: border
 }
 
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+h4 {
     flex-wrap: wrap
-    }
-.what,.why,.how,.when,.tips{
-    flex:200px
 }
 
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+{
+    flex: 200px
+}
+
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+{
     margin: 9px
 }
 
-.what,.why,.how,.when,.tips{
-    display:inline-block
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+h4 {
+    display: inline-block
 }
 
-.what,.why,.how,.when,.tips{
+.what,
+.why,
+.how,
+.when,
+.tips,
+.resources,
+{
     padding: 2 %;
 }
 
-.what,.why,.how,.when,.tips{
-
-}
-
-.site-nav{
+nav {
     display: inline
 }
 
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+nav ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
 }
 
-.what,.why,.how,.when,.tips{
-    display: list-item
-    list-style-type: circle
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black
 }
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@supports (grid-area: auto) {
+    Add CSS that applies to all widths before the first media query Suggestion: set base grid here. nav,
+    body,
+    footer {
+        display: grid;
+        grid-gap: 20px;
+    }
+    @media (min-width: 600px) {
+        phone landscape and tablet portrait nav,
+        body,
+        footer {
+            grid-template-columns: 1fr 1fr;
+        }
+        nav,
+        body,
+        footer {
+            grid-column: 1/3;
+        }
+        nav,
+        body,
+        footer {
+            background-color: navajowhite;
+        }
+    }
+    end min-width 600 @media (min-width: 900px) {
+        tablet landscape nav,
+        body,
+        footer {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        nav,
+        body,
+        footer {
+            grid-column: 1/4;
+        }
+    }
+    end min-width 900 @media (min-width: 1200px) {
+        laptop nav,
+        body,
+        footer {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        nav,
+        body,
+        footer {
+            grid-column: 1/5;
+        }
+    }
+    end min-width 1200 @media (min-width: 1800px) {
+        desktop nav,
+        body,
+        footer {
+            grid-template-columns: repeat(6, 1fr);
+        }
+        nav,
+        body,
+        footer {
+            grid-column: 1/7;
+        }
+    }
+    end min-width 1800
+}
+
+end @supports
