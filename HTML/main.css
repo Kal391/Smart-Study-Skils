@@ -4,7 +4,9 @@ font-family: 'Oxygen', sans-serif;
 font-family: 'Pacifico', cursive; */
 
 <style> @import url('https://fonts.googleapis.com/css?family=Lobster|Muli|Oxygen|Pacifico&display=swap');
-</style> h2 {
+</style>
+
+h2 {
     font-family: 'Oxygen', sans-serif;
     font-weight: lighter
 }
@@ -19,11 +21,11 @@ h4 {
 
 .skills {
     font-family: 'Muli', sans-serif;
-    font-weight: 70
+    font-weight:normal
 }
 
 .skills {
-    color: blueviolet
+    color: midnightblue
 }
 
 .resources {
@@ -45,10 +47,7 @@ a {
 
 h1 {
     font-family: 'Pacifico', cursive;
-}
-
-h1 {
-    color: sandybrown
+color: sandybrown
 }
 
 .attractor {
@@ -60,7 +59,90 @@ h1 {
     color: midnightblue
 }
 
+.tagline{
+     font-family: 'Muli', sans-serif;
+    font-weight: bolder
+   }
+.tagline{
+     color:cornflowerblue
+}
+.intro{
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder
+}
+.intro{
+    color:midnightblue
+}
+
+footer{
+    font-family: 'Lobster', cursive;
+}
+
 body {
     background-color: navajowhite
     /* midnightblue */
+}
+
+ body{
+    text-align: center
+}
+
+/* font-family: 'Lobster', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Pacifico', cursive; */
+
+.what,.why,.how,.when,.tips{
+    font-family: 'Muli', sans-serif;
+    color:midnightblue
+}
+
+/* .site-nav{
+    display:
+} */
+
+.what,.why,.how,.when,.tips{
+    display: flex
+}
+
+.what,.why,.how,.when,.tips{
+    border: thick double midnightblue;
+}
+
+.what,.why,.how,.when,.tips{
+    flex-wrap: wrap
+    }
+.what,.why,.how,.when,.tips{
+    flex:200px
+}
+
+.what,.why,.how,.when,.tips{
+    margin: 9px
+}
+
+.what,.why,.how,.when,.tips{
+    display:inline-block
+}
+
+.what,.why,.how,.when,.tips{
+    padding: 2 %;
+}
+
+.what,.why,.how,.when,.tips{
+
+}
+
+.site-nav{
+    display: inline
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.what,.why,.how,.when,.tips{
+    display: list-item
+    list-style-type: circle
 }
