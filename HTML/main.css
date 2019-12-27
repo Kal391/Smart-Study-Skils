@@ -89,6 +89,12 @@ body,
     text-align: center
 }
 
+.responsive {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 
 /* font-family: 'Lobster', cursive;
 font-family: 'Muli', sans-serif;
